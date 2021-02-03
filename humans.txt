@@ -1,0 +1,14 @@
+/* TEAM */
+Philip Rodgers
+Site: pob1333-filess@hotmail.com
+Twitter: 
+Location: Chicago Ridge, USA.
+
+/* THANKS */
+Name: Philip Rodgers
+
+/* SITE */
+Last update: 2021/02/03
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery
+Software: Javascript, VSC, Bash
