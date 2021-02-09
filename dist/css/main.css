@@ -7,10 +7,16 @@
 
 body {
   padding: 0;
-  margin: 0; }
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 * {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif; 
+}
 
 header {
   height: 50px;
@@ -47,14 +53,14 @@ nav ul li a:hover {
 
 main {
   /* Use a margin to center the page */
-  margin:10px auto;
+  margin:0 auto;
 
   text-align: center;
 
   /* Set the width of the content */
   width: 960px;
   /* For smaller screens to not exceed the max screen width */
-  max-width: 100%; 
+  max-width: 100%;
 
 }
  
@@ -93,5 +99,70 @@ img.rounded {
   nav ul li a:visited {
     display: block;
     border-bottom: 1px solid #777; } }
+
+
+
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      padding: 0rem;
+      margin-bottom: 0rem;
+      text-align: left;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .row-2 {
+      padding: 0rem;
+      margin-bottom: 0rem;
+      text-align: left;
+    }
+    
+    .col {
+      width: 100%;
+      float: left;
+      border: 1px solid #990000;
+      height: 100px;
+      background: #fff;
+      text-align: left;
+      line-height: 100px;
+    }
+    
+    .col-2 {
+      width: 50%;
+      float: left;
+      border: 1px solid #990000;
+      height: 100px;
+      background: #fff;
+      text-align: left;
+      line-height: 100px;
+    }
+    
+    .next {
+      clear:both; 
+      padding-top: 2rem; 
+      text-align: center; 
+      font-weight: bold;
+    }
+    
+    .next a,
+    .next:link,
+    .next:visited {
+      text-decoration: none;
+      display: inline-block;
+      padding: 1rem;
+      border: 1px solid #777;
+      color: #777;
+    }
+
 
 /*# sourceMappingURL=main.css.map */
