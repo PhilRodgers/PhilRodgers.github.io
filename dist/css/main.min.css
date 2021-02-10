@@ -161,7 +161,7 @@ img.rounded {
     }
 
 
-    /** clear floats */
+    /** clear floats 
 @mixin clearfix() {
   &:after {
     content: "";
@@ -169,11 +169,13 @@ img.rounded {
     clear: both;
   }
 }
+*/
+
 
 /** resume styling */
 h1, h2, h3 {
   text-align: center;
-  text-transform: uppercase; }
+  }
 
 h3 {
   font-style: italic; }
